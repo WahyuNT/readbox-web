@@ -1,0 +1,64 @@
+:root{
+    --var-primary : #2BD664;
+    --var-black : #071C35;
+}
+
+
+body{
+    background-color: #ECF3FB;
+}
+
+.text-readbox{
+    color: var(--var-primary);
+}
+
+.text-navbar{
+    color: var(--var-black);
+}
+.text-black{
+    color: var(--var-black);
+}
+.text-navbar:hover{
+    color: var(--var-primary);
+  
+}
+.btn-readbox{
+    background-color: var(--var-primary);
+    border-radius: 50rem;
+    color: white;
+}
+.btn-readbox:hover{
+    background-color: #33c163;
+    border-radius: 50rem;
+    color: white;
+}
+
+.btn-outline-readbox{
+    background-color: transparent;
+    border : 3px solid var(--var-primary);
+    border-radius: 50rem;
+    color: var(--var-primary);
+}
+.btn-outline-readbox:hover{
+    background-color: var(--var-primary);
+    border-radius: 50rem;
+    color: white
+}
+.section1{
+    background-image: url('/img/bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    }
+.section2{
+        background-image: url('/img/bg2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        height: 100vh;
+}
+.card-overview{
+        border-radius: 20px;
+      border: 0px;
+}
