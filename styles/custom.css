@@ -16,7 +16,7 @@ body{
     color: var(--var-black);
 }
 .text-black{
-    color: var(--var-black);
+    color: var(--var-black) !important;
 }
 .text-navbar:hover{
     color: var(--var-primary);
@@ -62,3 +62,9 @@ body{
         border-radius: 20px;
       border: 0px;
 }
+
+.section3 {
+    background: linear-gradient(to bottom, transparent 0%, transparent 20%, #1AD69A 20%, #1AD69A 80%, transparent 80%, transparent 100%);
+    background-size: cover;
+}
+
