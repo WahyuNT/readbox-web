@@ -89,7 +89,7 @@ export default function Home() {
 
 
             <div className="col-">
-              <img src="/img/App2.png" alt="" />
+              <img src="/img/app2.png" alt="image" />
             </div>
             <div className="col ms-5 pe-5">
               <h1 className="fw-bold text-black">Segera Hadir di Mobile</h1>
