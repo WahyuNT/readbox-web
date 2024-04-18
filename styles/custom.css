@@ -1,6 +1,7 @@
 :root{
     --var-primary : #2BD664;
     --var-black : #071C35;
+    --var-grey : #5A5D61;
 }
 
 
@@ -57,6 +58,7 @@ body{
         background-size: cover;
         object-fit: cover;
         height: 100vh;
+      
 }
 .card-overview{
         border-radius: 20px;
@@ -65,6 +67,49 @@ body{
 
 .section3 {
     background: linear-gradient(to bottom, transparent 0%, transparent 20%, #1AD69A 20%, #1AD69A 80%, transparent 80%, transparent 100%);
+    background-color: #E5F0FC;
     background-size: cover;
 }
 
+.card-pricing{
+    color: var(--var-grey);
+    border: 0 ;
+    border-radius: 20px;
+}
+.btn-reguler{
+    color: white;
+    background-color: var(--var-grey);
+    border-radius: 50rem;
+}
+.btn-reguler:hover{
+    color: white;
+    background-color: #46484a;
+    border-radius: 50rem;
+}
+.mo-price{
+    font-size: 12px;
+}
+.section4{
+    background-color: #E5F0FC;
+}
+.section6{
+    background-color: #E5F0FC;
+}
+.card-team{
+    border: 0;
+    border-radius: 20px;
+}
+.text-grey{
+    color: var(--var-grey);
+}
+.w-65{
+    width: 65%;
+    height: auto;
+}
+.section7{
+    background-color: #1AD69A;
+}
+.card-contact{
+    border: 0;
+    border-radius: 50rem;
+}
