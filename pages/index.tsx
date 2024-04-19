@@ -35,7 +35,7 @@ export default function Home() {
         <div className="container ">
 
           <div className="d-flex flex-wrap-reverse justify-content-between pt-5 align-items-center ">
-            <div className="col-12 col-lg-6 text-lg-end text-center mt-2 pt-3 pt-lg-0 mt-lg-0">
+            <div className="col-12 col-lg-6 text-lg-start text-center mt-2 pt-3 pt-lg-0 mt-lg-0">
 
               <h1 className="fw-bold text-black">Best Mobile App <br />
                 For Read Books</h1>
@@ -49,7 +49,7 @@ export default function Home() {
 
             </div>
             <div className="col-12 col-lg-6 text-lg-end text-center mt-5 pt-3 pt-lg-0 mt-lg-0">
-              <img src="/img/app1.png" className="w-65 w-lg-100" alt="" />
+              <img src="/img/app1.png" className=" img-app1" alt="" />
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function Home() {
               <img src="/img/app1.png" className=" " alt="image" />
             </div>
             <div className="col ms-lg-5 pe-lg-5 d-flex justify-content-center justify-content-lg-start flex-wrap text-center text-lg-start">
-              <h1 className="fw-bold text-black mt-4 mt-lg-0">Segera Hadir di Mobile</h1>
+              <h1 className="fw-bold text-black mt-4  mt-lg-0">Segera Hadir di Mobile</h1>
               <p className="">ReadBox juga akan hadir dalam aplikasi yang dapat di unduh di perangkat iOS dan Android agar mempermudah pengguna untuk mengakses ReadBox</p>
             </div>
 
@@ -158,7 +158,7 @@ export default function Home() {
 
           <h2 className="text-center text-black fw-bold mt-5 mb-5">Team</h2>
           <div className="d-flex justify-content-center gap-4 gap-lg-5 mb-5 flex-wrap">
-            <div className="col-lg-2 col-8">
+            <div className="col-lg-2 col-10">
               <div className="card card-team">
                 <div className="card-body text-center px-4 py-5">
                   <img src="/img/Salma.png" className="w-75 mb-4" alt="" />
@@ -167,7 +167,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-8 mt-lg-5">
+            <div className="col-lg-2 col-10 mt-lg-5">
               <div className="card card-team">
                 <div className="card-body text-center px-4 py-5">
                   <img src="/img/Wulan.png" className="w-75 mb-4" alt="" />
@@ -176,7 +176,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-8">
+            <div className="col-lg-2 col-10">
               <div className="card card-team">
                 <div className="card-body text-center px-4 py-5">
                   <img src="/img/Wahyu.png" className="w-75 mb-4" alt="" />
@@ -194,7 +194,8 @@ export default function Home() {
           <h1 className="fw-bold mb-3">Subscribe to our newsletter for <br />
             fast updates & news</h1>
           <div className="d-flex justify-content-center ">
-            <div className="card card-contact w-25 ps-3 pe-1 py-1 ">
+
+            <div className="card card-contact w-lg-25 ps-3 pe-1 py-1 ">
               <div className="d-flex align-items-center">
                 <div className="col">
                   <input type="text" className="w-100 border-0" placeholder="Email" />
@@ -205,6 +206,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+
         </div>
       </section>
 
