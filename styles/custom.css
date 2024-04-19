@@ -54,10 +54,11 @@ body{
     }
 .section2{
         background-image: url('/img/bg2.png');
+      width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
-        object-fit: cover;
-        height: 100vh;
+        background-position:  top;
+     
       
 }
 .card-overview{
@@ -66,9 +67,10 @@ body{
 }
 
 .section3 {
-    background: linear-gradient(to bottom, transparent 0%, transparent 20%, #1AD69A 20%, #1AD69A 80%, transparent 80%, transparent 100%);
+    background: linear-gradient(to bottom, #ECF3FB 0%, #ECF3FB 20%, #1AD69A 20%, #1AD69A 80%, transparent 80%, transparent 100%);
     background-color: #E5F0FC;
     background-size: cover;
+   
 }
 
 .card-pricing{
@@ -91,9 +93,19 @@ body{
 }
 .section4{
     background-color: #E5F0FC;
+    
+}
+.section5{
+    background-color: #F2F4FF;
+    background-image: url('/img/bg3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  bottom;
+  
 }
 .section6{
     background-color: #E5F0FC;
+
 }
 .card-team{
     border: 0;
@@ -112,4 +124,19 @@ body{
 .card-contact{
     border: 0;
     border-radius: 50rem;
+}
+.btn-menu{
+    background-color: var(--var-primary);
+    border-radius: 8px;
+    color: white;
+    aspect-ratio: 1/1;
+    
+}
+.navbar-readbox{
+    position: fixed;
+    width: 100%;
+}
+.w-65{
+    width: 65%;
+    height: auto;
 }
